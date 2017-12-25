@@ -18,7 +18,7 @@ Then add a cool snow effect to any UIViews
 override func viewDidLoad() {
    super.viewDidLoad()
    
-   self.view.AddSnow(Interval: 0.5)
+   self.view.addSnow(Interval: 0.5)
    
 }
 ```
