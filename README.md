@@ -13,7 +13,7 @@ Add a very very simple snow effect to your views
 
 You only need to drag `SnowyView.swift` to your project folder
 
-And then suprise 
+Then add a cool snow effect to any UIViews
 ```
 override func viewDidLoad() {
    super.viewDidLoad()
@@ -24,11 +24,6 @@ override func viewDidLoad() {
 ```
 
 And Run the App
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
