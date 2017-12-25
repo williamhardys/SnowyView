@@ -18,7 +18,7 @@ var started : Bool = false
 extension UIView {
     
    
-    @objc func AddSnow(Interval: TimeInterval) {
+    @objc func addSnow(Interval: TimeInterval) {
         if started == true {
            // Hi...!
             
@@ -58,7 +58,7 @@ extension UIView {
            fatalError("Invalid Interval,... 0.5 is the default TimeInterval")
         }
         started = true
-        timer = Timer.scheduledTimer(timeInterval: Intv, target: self, selector: #selector(self.AddSnow), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: Intv, target: self, selector: #selector(self.addSnow), userInfo: nil, repeats: true)
     }
     
 

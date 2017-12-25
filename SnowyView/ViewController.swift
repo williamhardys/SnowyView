@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.AddSnow(Interval: 0.5)
+        self.view.addSnow(Interval: 0.5)
         
     }
 
