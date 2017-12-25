@@ -21,7 +21,7 @@ extension UIView {
     @objc func addSnow(Interval: TimeInterval) {
         if started == true {
            // Hi...!
-            
+            print("elon musk")
         } else {
             scheduledTimerWithTimeInterval(Intv: Interval)
         }
